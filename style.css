@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    color: rgb(2, 0, 140);
+    background: url(images/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    font-family: 'font';
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+h2 {
+    background-color: rgb(198, 224, 255);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    margin: 0 auto;
+
+
+}
+
+section {
+    background: linear-gradient(rgba(255, 255, 255, 0.821), rgba(173, 225, 245, 0.714));
+    display: flex;
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 8%;
+    justify-content: space-around;
+
+}
+
+#box1 {
+    padding: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+}
+
+#b1,
+#b2,
+#b3,
+#b4,
+#b5,
+#b6 {
+    display: none;
+    color: black;
+    cursor: pointer;
+
+
+}
+
+.mod {
+    background-color: rgba(228, 22, 247, 0.197);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    width: 100px;
+
+}
+
+
+
+.p {
+    background-color: rgba(188, 202, 255, 0.83);
+    border-radius: 10px;
+    display: none;
+    padding: 30px;
+    margin: 20px 0;
+
+}
+
+p {
+    margin: 20px 0;
+    background-color: rgba(196, 249, 255, 0.574);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'font';
+    src: url(./fonts/font.ttf);
+}
